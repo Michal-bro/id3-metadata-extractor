@@ -1,0 +1,14 @@
+Udělej soubor install.sh spustitelným!
+-	chmod +x install.sh
+
+Potom spusť skript který provede kontrolu/instalaci závislostí a zkompiluje program,
+samozřejmě pod právy root 
+-	sudo ./install.sh
+
+Pro spuštění programu použij příkaz
+-       ./id3_extraktor <cesta nebo URL k souboru mp3>
+
+příklad
+./id3_extraktor https://terranova.funsite.cz/test1.mp3
+stáhne soubor vyextrahuje název skladby, uloží do složky (pojmenovanou názvem skladby), 
+vyextrahuje obrázek APIC a uloží do složky
